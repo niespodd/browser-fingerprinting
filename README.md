@@ -15,3 +15,8 @@
 * ❌ **Behavior Detection** - desc. tbd (events, params, ML+AI buzz)
 * ❌ **Font fingerprinting** - desc. tbd (list+version+renderer via HTML&canvas)
 * ❌ **Network Latency** - desc. tbd (integrity check: proxy det., JS networkinfo, dns resolv profiling&timing)
+
+## (Multilogin)[https://multilogin.com], (Kameleo)[https://kameleo.io/] and others
+
+tbd
+
