@@ -21,7 +21,7 @@
 
 ## [Multilogin](https://multilogin.com), [Kameleo](https://kameleo.io/), copycats and others
 
-tbd
+tbd (if you have an active subscription in any of these services and don't mind sharing an account drop me an email ❤️) 
 
 ## Support 
 
