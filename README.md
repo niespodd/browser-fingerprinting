@@ -1,6 +1,8 @@
 # Browser Fingerprinting 👫 Anti-bot Detection
 
-Here I study various aspects of existing evasion techniques to get around anti-bot systems. ⭐-s are **appreciated**. [Looking for help with bypassing one?](#support)
+Here I study various aspects of existing evasion techniques to get around anti-bot systems. [Looking for help with bypassing one?](#support)
+
+PS. A ⭐ on this repo will be **appreciated**!
 
 ## Random, maybe useful
 * [Cap FPS for Chromium with software rendering --use-gl=swiftshader](https://gist.github.com/niespodd/c7fd14e0e58652e74c0f1fdbd819112d) - Limit CPU usage from SwiftShader by redraw freq. of Chromium in AVD 
