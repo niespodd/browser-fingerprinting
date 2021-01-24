@@ -25,7 +25,7 @@ PS. A ⭐ on this repo will be **appreciated**!
 * ❌ **Battery API** - desc. tbd 
 * ❌ **Gyroscope and other (mostly mobile) device sensors** - desc. tbd 
 
-## [Multilogin](https://multilogin.com), [Kameleo](https://kameleo.io/), copycats and others
+## [Multilogin](https://multilogin.com), [Kameleo](https://kameleo.io/) and others 💰🤠
 
 tbd (if you have an active subscription in any of these services and don't mind sharing an account drop me an email ❤️) 
 
