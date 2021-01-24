@@ -16,7 +16,7 @@
 * ❌ **Font fingerprinting** - desc. tbd (list+version+renderer via HTML&canvas)
 * ❌ **Network Latency** - desc. tbd (integrity check: proxy det., JS networkinfo, dns resolv profiling&timing)
 * ❌ **Battery API** - desc. tbd 
-* ❌ **Gyroscope and other (mostly mobile) device sensors ** - desc. tbd 
+* ❌ **Gyroscope and other (mostly mobile) device sensors** - desc. tbd 
 
 ## [Multilogin](https://multilogin.com), [Kameleo](https://kameleo.io/), copycats and others
 
