@@ -23,3 +23,8 @@
 
 tbd
 
+## Support 
+
+If you have problems with scraping specific website, write me a short email at `dniespodziany@gmail.com`. I can help you with any anti-bot detection issue (not only the ones from the list above) and have a dedicated tête-à-tête consultation via Skype 😊.
+
+Leave ⭐ and a tip ➡️ Ethereum address `0x380a4b41fB5e0e1EB8c616eBD56f62f8F934Bab6`
