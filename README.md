@@ -1,5 +1,6 @@
 ## Random, maybe useful
 * [Cap FPS for Chromium with software rendering --use-gl=swiftshader](https://gist.github.com/niespodd/c7fd14e0e58652e74c0f1fdbd819112d) - Limit CPU usage from SwiftShader by redraw freq. of Chromium in AVD 
+* Unlike some public comments on that matter **chrome devtools protocol actually works** on AVD-s with puppeteer 
 
 ## [puppeteer-extra-plugin-stealth 😈](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-stealth)
 
