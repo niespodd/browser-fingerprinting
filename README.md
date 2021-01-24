@@ -31,7 +31,7 @@ tbd (if you have an active subscription in any of these services and don't mind 
 
 ## Support 
 
-If you have problems with scraping specific website, write me a short email at `dniespodziany@gmail.com`. Let's have a quick tête-à-tête consultation via Skype 😊. I worked for quite some time with anti-bot detection WAFs and I am happy to help for a tip.
+If you have problems with scraping specific website, write me a short email at `dniespodziany@gmail.com`. Let's have a quick tête-à-tête consultation via Skype 😊.
 
 Have I mentioned a ⭐ would be appreciated? :-) 
 
