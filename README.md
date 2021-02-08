@@ -37,7 +37,7 @@ If you think this is a way to go [google "captcha resolve api"](https://letmegoo
 
 # Technicalities
 
-*I constantly add stuff to this section.*
+*I constantly add stuff to this section and soon I will try to make it look&feel more structured.*
 
 ## Random, maybe useful
 * [Cap FPS for Chromium with software rendering --use-gl=swiftshader](https://gist.github.com/niespodd/c7fd14e0e58652e74c0f1fdbd819112d) - Limit CPU usage from SwiftShader by redraw freq. of Chromium in AVD 
