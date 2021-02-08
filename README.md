@@ -1,4 +1,4 @@
-# Browser Fingerprinting 👫 Bot Detection 👨‍🔧 Technical dive
+# Browser Fingerprinting, Bot Detection 👨‍🔧 Technical dive
 
 A ⭐ on this repo will be **appreciated**!
 
