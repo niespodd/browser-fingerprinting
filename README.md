@@ -51,6 +51,24 @@ A ⭐ on this repo will be **appreciated**!
 
 tbd (if you have an active subscription in any of these services and don't mind sharing an account drop me an email ❤️) 
 
+### Available stealth browsers with automation features
+
+**Important** You use this software at your own risk. Some of them contain malwares just fyi. **I do not recommend using them.**
+
+| Stealth Browser | Puppeteer | Selenium | Evasions | SDK/Tooling | Origin |
+| - | - | - | - | - | - |
+| [GoLogin](https://gologinapp.com)                  | ✔️ | ✔️ | 🤮 | 👍 | 🇺🇸 + 🇷🇺 |
+| [Incogniton](https://incogniton.com)               | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
+| [ClonBrowser](https://www.clonbrowser.com/)        | ✔️ | ✔️ | ❌ | ✔️ | ❓ |
+| [MultiLogin](https://multilogin.com)               | ✔️ | ✔️ | ❌ | ✔️ | 🇪🇪 + 🇷🇺  |
+| [Indigo Browser](https://indigobrowser.com)        | ✔️ | ✔️ | ❌ | ✔️ | ❓ |
+| [GhostBrowser](https://ghostbrowser.com)           | ❌ | ❌ | ❌ | 👍 | ❓ |
+| [Kameleo](https://kameleo.io)                      | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
+| [AntBrowser](https://antbrowser.pro)               | ❌ | ❌ | ❌ | ❌ | 🇷🇺  |
+| [CheBrowser](https://beta.chebrowser.site)         | ❌ | ❌ | ❌ | 👍 | 🇷🇺  |
+
+**Legend:** 🤮 - Evasion based on noise. ❌ - No. ✔️ - Acceptable (with support libraries or not).
+
 # Non-technical notes
 
 I need to make a general remark to people who are evaluating (and/or) planning to introduce anti-bot software on their websites. **Anti-bot software is nonsense.** Its snake oil sold to people without technical knowledge for heavy bucks.
