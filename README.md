@@ -67,7 +67,7 @@ tbd (if you have an active subscription in any of these services and don't mind 
 | [AntBrowser](https://antbrowser.pro)               | ❌ | ❌ | ❌ | ❌ | 🇷🇺  |
 | [CheBrowser](https://beta.chebrowser.site)         | ❌ | ❌ | ❌ | 👍 | 🇷🇺  |
 
-**Legend:** 🤮 - Evasion based on noise. ❌ - No. ✔️ - Acceptable (with support libraries or not).
+**Legend:** 🤮 - Evasion based on noise. ❌ - No. ✔️ - Acceptable (with support libraries or not). 👍 - Very nice.
 
 # Non-technical notes
 
