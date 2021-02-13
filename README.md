@@ -59,13 +59,13 @@ tbd (if you have an active subscription in any of these services and don't mind 
 | - | - | - | - | - | - |
 | [GoLogin](https://gologinapp.com)                  | ✔️ | ✔️ | 🤮 | 👍 | 🇺🇸 + 🇷🇺 |
 | [Incogniton](https://incogniton.com)               | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
-| [ClonBrowser](https://www.clonbrowser.com/)        | ✔️ | ✔️ | ❌ | ✔️ | ❓ |
-| [MultiLogin](https://multilogin.com)               | ✔️ | ✔️ | ❌ | ✔️ | 🇪🇪 + 🇷🇺  |
-| [Indigo Browser](https://indigobrowser.com)        | ✔️ | ✔️ | ❌ | ✔️ | ❓ |
+| [ClonBrowser](https://www.clonbrowser.com/)        | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
+| [MultiLogin](https://multilogin.com)               | ✔️ | ✔️ | 🤮 | ✔️ | 🇪🇪 + 🇷🇺  |
+| [Indigo Browser](https://indigobrowser.com)        | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
 | [GhostBrowser](https://ghostbrowser.com)           | ❌ | ❌ | ❌ | 👍 | ❓ |
 | [Kameleo](https://kameleo.io)                      | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
 | [AntBrowser](https://antbrowser.pro)               | ❌ | ❌ | ❌ | ❌ | 🇷🇺  |
-| [CheBrowser](https://beta.chebrowser.site)         | ❌ | ❌ | ❌ | 👍 | 🇷🇺  |
+| [CheBrowser](https://beta.chebrowser.site)         | ❌ | ❌ | 🤮/✔️ | 👍 | 🇷🇺  |
 
 **Legend:** 🤮 - Evasion based on noise. ❌ - No. ✔️ - Acceptable (with support libraries or not). 👍 - Very nice.
 
