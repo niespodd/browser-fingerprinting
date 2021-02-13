@@ -1,6 +1,4 @@
-# Browser Fingerprinting, Bot Detection 👨‍🔧 [Technical dive](#technicalities)
-
-A ⭐ on this repo will be **appreciated**!
+# Browser Fingerprinting, Bot Detection 👨‍🔧
 
 Here I study various aspects of existing evasion techniques to get around anti-bot systems. The technical findings that I am sharing below are based on observations of running web scraping scripts for a few months against websites protected by:
 * [Akamai Bot Manager by Akamai](https://www.akamai.com/uk/en/products/security/bot-manager.jsp)
@@ -11,33 +9,13 @@ Here I study various aspects of existing evasion techniques to get around anti-b
 
 and a few other custom built (incl. social media platforms). [Having troubles bypassing one of them?](#support)
 
-# Preface
+---
 
-Before I dive into technical details, I need to make a general remark to people who are evaluating (and/or) planning to introduce anti-bot software on their websites. **Anti-bot software is nonsense.** It's snake oil sold to people without technical knowledge for heavy bucks. Most of the time you do not need it.
-
-Blocking bot traffic is based on the premise that you (or your technology provider) can **distinguish bots from real users**. To make this happen various techniques that I am discussing further in the document are applied. However, to date none of them appear to be successful against specialized web scrapering tools. In other words **anti-bot software is all about reducing cheap bot traffic** and most often only making the process more expensive and complicated, but **not entirely impossible** for the people running web scrapers.
-
-Today anti-bot vendors apply two major techniques to detect (and block) bot traffic:
-
-### Binary detection
-
-No specialized web scraping software is used. Vendor can detect the bad traffic based on information openly disclosed by the scraper e.g. `User-Agent` header, connection parameters etc. 
-
-As a result **only bots that are not targeted to scrape specific website are blocked**. This will make most of the managers happy, because the overall number of *bad traffic* goes down and it may almost look like there is no more bot traffic on the website. **Wrong.**
-
-### Traffic clustering
-
-More advanced web scrapers make use of residential proxies and implement complex evasion techniques to fool anti-bot software to think that the web scraper is a real user. No detection mechanism exists to get around this due to technical limitation of web browsers.
-
-In this case, most of the time the vendor will be only able to **cluster the bad traffic** by finding patterns in bot traffic and behavior. This is where browser fingerprinting comes into play. The problem with banning the traffic here is that it may turn out to be a risky operation when bots are successfully mimicking real users. There is a chance that **by blocking bots the website will become unavailable to real visitors**.
-
-### *Gateways, captchas & co*
-
-If you think this is a way to go [google "captcha resolve api"](https://letmegooglethat.com/?q=captcha+resolve+api).
+A ⭐ on this repo will be **appreciated**!
 
 # Technicalities
 
-*I constantly add stuff to this section and soon I will try to make it look&feel more structured.*
+*I constantly add stuff to this section. Over time I will try to make it look&feel more structured.*
 
 ## Random, maybe useful
 * [Cap FPS for Chromium with software rendering --use-gl=swiftshader](https://gist.github.com/niespodd/c7fd14e0e58652e74c0f1fdbd819112d) - Limit CPU usage from SwiftShader by redraw freq. of Chromium in AVD 
@@ -64,12 +42,38 @@ If you think this is a way to go [google "captcha resolve api"](https://letmegoo
 
 ## [Multilogin](https://multilogin.com), [Kameleo](https://kameleo.io/) and others 💰🤠
 
+* ❌ **General `navigator` and `window` properties** - As per [Multilogin documentation](https://docs.multilogin.com/l/en/article/chvo34br5c-global-browser-profile-preferences) custom browser builds typically lag behind the latest additions added by browser vendors - Chromium in this case.
 * 🤷 **Font masking** - Font fingerprinting still leaks host OS due to use of [different font rendering backends on Win/Lin/Mac](https://blog.typekit.com/2010/10/15/type-rendering-operating-systems/). However, the basic "font whitelisting" technique can help to slightly rotate browser fingerprint.
 * ❌ **Inconsistencies** - Profile misconfiguration leads to early property/behavior inconsitency detection.
 * ❌ **Native extensions** - Unlike `puppeteer-extra-plugin-stealth` custom Chromium builds such as ML and Kameleo provide at most an override for native plugins and extensions shipped with Google Chrome.
 * ❌ **AudioContext APIs and WebGL property override** - Manipulation of original canvas and audio waveform can be detected with custom JS.
+* ✔️ **Audio and GL noise**
 
 tbd (if you have an active subscription in any of these services and don't mind sharing an account drop me an email ❤️) 
+
+# Non-technical notes
+
+I need to make a general remark to people who are evaluating (and/or) planning to introduce anti-bot software on their websites. **Anti-bot software is nonsense.** Its snake oil sold to people without technical knowledge for heavy bucks.
+
+Blocking bot traffic is based on the premise that you (or your technology provider) can **distinguish bots from real users**. To make this happen various privacy-invasive techniques are applied. To date none of them has been proved to be successful against specialized web scraping tools. **Anti-bot software is all about reducing cheap bot traffic.** It makes the process of scraping more expensive and complicated, but **does not make it entirely impossible**.
+
+Anti-bot software vendors use detection techniques that fall into one of these two categories:
+
+### Binary detection
+
+No specialized web scraping software is used. Vendor can detect the bad traffic based on information openly disclosed by the scraper e.g. `User-Agent` header, connection parameters etc. 
+
+As a result **only bots that are not targeted to scrape specific website are blocked**. This will make most of the managers happy, because the overall number of *bad traffic* goes down and it may almost look like there is no more bot traffic on the website. **Wrong.**
+
+### Traffic clustering
+
+More advanced web scrapers make use of residential proxies and implement complex evasion techniques to fool anti-bot software to think that the web scraper is a real user. No detection mechanism exists to get around this due to technical limitation of web browsers.
+
+In this case, most of the time the vendor will be only able to **cluster the bad traffic** by finding patterns in bot traffic and behavior. This is where browser fingerprinting comes into play. The problem with banning the traffic here is that it may turn out to be a risky operation when bots are successfully mimicking real users. There is a chance that **by blocking bots the website will become unavailable to real visitors**.
+
+### *Gateways, captchas & co*
+
+If you think this is a way to go [google "captcha resolve api"](https://letmegooglethat.com/?q=captcha+resolve+api).
 
 ## Support 
 
