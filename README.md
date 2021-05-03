@@ -70,6 +70,27 @@ tbd (if you have an active subscription in any of these services and don't mind 
 
 **Legend:** 🤮 - Evasion based on noise. ❌ - No. ✔️ - Acceptable (with support libraries or not). 👍 - Very nice.
 
+### Fingerprint test pages
+
+These websites may be useful to test fingerprinting techniques against a web scraping software
+
+| Test page | Notes | 
+| - | - |
+| https://pixelscan.net/ | Not 100% realiable as it often displays "inconsistent" to Chrome after a new update, but worth checking as the author adds new interesting detection features every now and then |
+| https://browserleaks.com/ | Doesn't need introduction 😉 |
+| https://f.vision/ | Good quality test page from some 🇷🇺 guys |
+| https://www.ipqualityscore.com/ip-reputation-check | Commercial service with free reputation check against popular blacklists |
+| https://antcpt.com/eng/information/demo-form/recaptcha-3-test-score.html | ReCaptcha score as well as some interesting notes on how to optimize captcha solving costs |
+| https://ja3er.com/ | SSL/TLS fingerprint |
+| https://fingerprintjs.com/demo/ | Good for basic tests - from people who believe and claim can create unique fingerprints "99.5%" of the time |
+| https://coveryourtracks.eff.org/ | - |
+| https://www.deviceinfo.me/ | - |
+| https://amiunique.org/ | - |
+| http://uniquemachine.org/ | - |
+| http://dnscookie.com/ | - |
+| https://whatleaks.com/ | - |
+
+
 # Non-technical notes
 
 I need to make a general remark to people who are evaluating (and/or) planning to introduce anti-bot software on their websites. **Anti-bot software is nonsense.** Its snake oil sold to people without technical knowledge for heavy bucks.
