@@ -11,6 +11,11 @@ and a few other custom built (incl. social media platforms). [Having troubles by
 
 ---
 
+Check out [the new tester application](https://niespodd.github.io/browser-fingerprinting/):
+![./tester_preview.png](./tester_preview.png)
+
+---
+
 A ⭐ on this repo will be **appreciated**!
 
 # Technicalities

@@ -3,6 +3,8 @@ import {useDispatch, useSelector} from "react-redux";
 import {Box, Heading, Text, Spinner, Alert, AlertIcon} from "@chakra-ui/react";
 import {statusSet} from "../state/actions";
 
+import mixpanel from 'mixpanel-browser';
+
 const TesterStatus = {
     LOADING: 1,
     ERROR: 2,
@@ -25,6 +27,7 @@ export default (cls, config) => () => {
                 }, 500);
             } catch (e) {
                 setStatus(TesterStatus.ERROR);
+                mixpanel.track('failed:' + key);
             }
         } else {
            setStatus(TesterStatus.LOADED);
