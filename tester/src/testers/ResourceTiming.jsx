@@ -16,6 +16,7 @@ const TIMING_COLOR = {
 const TimelineVisualisation = ({ data }) => {
     const timelineWrapper = React.useRef(undefined);
     const [svgDimensions, setSvgDimensions] = React.useState(undefined);
+    const [timings, setTimings] = React.useState({undefined});
 
     React.useEffect(() => {
         if (!timelineWrapper.current) return;
@@ -30,6 +31,11 @@ const TimelineVisualisation = ({ data }) => {
         const maxW = Math.max(...data.map((d) => d.startTime + d.duration));
         const W = maxW - minW;
 
+        setTimings({
+            startTime: minW,
+            endTime: maxW,
+        });
+
         return data.map((e) => {
             return {
                 x: ((e.startTime - minW)/W) * width,
@@ -42,6 +48,7 @@ const TimelineVisualisation = ({ data }) => {
 
     return (
         <div ref={timelineWrapper} style={{ marginTop: '8px' }}>
+            <Text mb={2}>Start time <Code>{timings.startTime}</Code>, end time <Code>{timings.endTime}</Code></Text>
             {svgDimensions && normalizedData && (
                 <svg {...svgDimensions}>
                     <Group>
