@@ -5,13 +5,17 @@ import {DictToTable} from "./utils";
 
 const DocumentStatus = ({ fn, value }) => {
     fn(() => ({
-        hasFocus: document.hasFocus(),
-        compatMode: document.compatMode,
-        documentURI: document.documentURI,
-        designMode: document.designMode,
+        document: {
+            hasFocus: document.hasFocus(),
+            compatMode: document.compatMode,
+            documentURI: document.documentURI,
+            designMode: document.designMode,
+        }
     }));
     return (
-        <DictToTable dict={value} />
+        <DictToTable dict={value} limitKeys={[
+            "document"
+        ]} />
     );
 };
 

@@ -27,13 +27,13 @@ const probeStackLimit = async () => {
     let accessor = 'window.parent';
     let p = 0;
     while (true) {
-        p += 50;
+        p += 500;
         try {
             eval(accessor);
         } catch (err) {
             break;
         }
-        for (let i=0; i<50; i++) {
+        for (let i=0; i<500; i++) {
             accessor += '.parent';
         }
         await new Promise((resolve) => setTimeout(resolve, 50)); // helps to prevent early freeze/crash
@@ -41,20 +41,39 @@ const probeStackLimit = async () => {
     return p;
 }
 
+const getConnectionInformation = async () => {
+    const connection = await (navigator.connection || navigator.mozConnection || navigator.webkitConnection);
+    if (!connection) return {};
+    return {
+        effectiveType: connection.effectiveType,
+        saveData: connection.saveData,
+        rtt: connection.rtt,
+        downlink: connection.downlink,
+    }
+}
+
 const BasicInformation = ({ fn, value }) => {
     fn(async () => {
         const devtools = devToolsOpened();
         const stackLimit = await probeStackLimit();
+        const connection = await getConnectionInformation();
         return {
-            "deviceMemory": navigator.deviceMemory,
-            "hardwareConcurrency": navigator.hardwareConcurrency,
-            "window.innerHeight": window.innerHeight,
-            "window.innerWidth": window.innerWidth,
-            "window.outerHeight": window.outerHeight,
-            "window.outerWidth": window.outerWidth,
-            "devTools.isOpen": devtools.isOpen,
-            "devTools.orientation": devtools.orientation,
-            "stackLimit": stackLimit,
+            navigator: {
+                deviceMemory: navigator.deviceMemory,
+                hardwareConcurrency: navigator.hardwareConcurrency,
+            },
+            performance: {
+                "jsHeapSizeLimit": performance.memory.jsHeapSizeLimit,
+            },
+            stackLimit: stackLimit,
+            window: {
+                innerHeight: window.innerHeight,
+                innerWidth: window.innerWidth,
+                outerHeight: window.outerHeight,
+                outerWidth: window.outerWidth,
+            },
+            devtools,
+            connection,
         };
     });
 
@@ -68,7 +87,15 @@ const BasicInformation = ({ fn, value }) => {
                         <Text fontSize="sm" mb={2}>
                             Available hardware details:
                         </Text>
-                        <DictToTable dict={value} limitKeys={["deviceMemory", "hardwareConcurrency", "stackLimit"]} />
+                        <DictToTable dict={value} limitKeys={["navigator", "stackLimit", "performance"]} />
+                    </Box>
+                </GridItem>
+                <GridItem>
+                    <Box mb={4}>
+                        <Text fontSize="sm" mb={2}>
+                            Window dimensions:
+                        </Text>
+                        <DictToTable dict={value} limitKeys={["window"]} />
                     </Box>
                     <Box>
                         <Text>
@@ -76,20 +103,12 @@ const BasicInformation = ({ fn, value }) => {
                         </Text>
                     </Box>
                 </GridItem>
-                <GridItem>
-                    <Text fontSize="sm" mb={2}>
-                        Window dimensions:
-                    </Text>
-                    <DictToTable dict={value} limitKeys={[
-                        "window.innerWidth",
-                        "window.innerHeight",
-                        "window.outerHeight",
-                        "window.outerWidth",
-                    ]} />
-
-                </GridItem>
             </SimpleGrid>
 
+            <Text fontSize="sm" mb={2} mt={2}>
+                Connection information:
+            </Text>
+            <DictToTable dict={value.connection} limitKeys={["downlink", "rtt", "effectiveType", "saveData"]} />
             <Divider my={4} />
             <Text fontSize="xs">
                 DevTools information are based on window sizing (borrowed from <Link color="teal.500" href="https://github.com/sindresorhus/devtools-detect/blob/main/index.js">sindresorhus/devtools-detect</Link>)

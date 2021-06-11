@@ -1,12 +1,58 @@
 import React from "react";
-import {HStack, Box, Tag, Table, Thead, Tbody, Tr, Td, Th, Text} from "@chakra-ui/react";
+import {HStack, Box, Tag, Table, Thead, Tbody, Tr, Td, Th, Text, List, ListItem} from "@chakra-ui/react";
+import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons';
+
+const getObjectValueFromPath = function(o, s) {
+    s = s.replace(".*", "");
+    s = s.replace(/\[(\w+)\]/g, '.$1'); // convert indexes to properties
+    s = s.replace(/^\./, '');           // strip a leading dot
+    var a = s.split('.');
+    for (var i = 0, n = a.length; i < n; ++i) {
+        var k = a[i];
+        if (k in o) {
+            o = o[k];
+        } else {
+            return;
+        }
+    }
+    if (typeof o == "object") {
+        return Object.entries(o);
+    }
+    return o;
+}
 
 const render = (v) => {
+    if (v instanceof Array) {
+        if (v[0] instanceof Array) {
+            // list of kv (from Object.entries)
+            return [true, (
+                <List>
+                    {v.map(([key, value], idx) => (
+                        <ListItem key={idx}>
+                            {key} = {value}
+                        </ListItem>
+                    ))}
+                </List>
+            )];
+        } else {
+            // list of values
+            return [true, (
+                <List>
+                    {v.map((entry, idx) => (
+                        <ListItem key={idx}>
+                            {entry.toString()}
+                        </ListItem>
+                    ))}
+                </List>
+            )];
+        }
+    }
+
     switch (typeof v) {
         case "boolean":
-            return v ? "✔️" : "❌";
+            return [false, v ? "✔️" : "❌"];
         default:
-            return v;
+            return [false, v];
     }
 }
 
@@ -23,34 +69,49 @@ export const YesNoList = ({ list = [] }) => (
     </Box>
 );
 
-export const DictToTable = ({ dict = {}, limitKeys = [] }) => (
-    <Box border="1px" borderColor="gray.100" borderRadius="md">
-        <Table size="sm" shadow="sm">
-            <Thead>
-                <Tr>
-                    <Th>
-                        Key
-                    </Th>
-                    <Th>
-                        Value
-                    </Th>
-                </Tr>
-            </Thead>
-            <Tbody>
-                {Object.entries(dict).map(([k, v], idx) => (limitKeys.length === 0 || limitKeys.indexOf(k) >= 0) ? (
-                    <Tr key={idx}>
-                        <Td>
-                            <Text color="gray.700">{k}</Text>
-                        </Td>
-                        <Td>
-                            <Text isTruncated>
-                                {render(v)}
-                            </Text>
-                        </Td>
-                    </Tr>
-                ) : null)}
-            </Tbody>
-        </Table>
-    </Box>
-);
+const DictToTableRow = ({ dict, k }) => {
+    const [isList, rendered] = render(getObjectValueFromPath(dict, k));
+    if (isList) {
+        return (
+            <Tr>
+                <Td colSpan={2}>
+                    <Text fontSize="xs" fontWeight="500">{k}</Text>
+                    <Text isTruncated ml={2}>
+                        {rendered}
+                    </Text>
+                </Td>
+            </Tr>
+        )
+    } else {
+        return (
+            <Tr>
+                <Td>
+                    {k}
+                </Td>
+                <Td>
+                    {rendered}
+                </Td>
+            </Tr>
+        )
+    }
+}
+
+export const DictToTable = ({ dict = {}, limitKeys = [] }) => {
+    const dictKeys = React.useMemo(() =>
+        limitKeys ? Object.keys(dict).filter((k) => limitKeys.indexOf(k) >= 0) : Object.keys(dict),
+        [dict, limitKeys]
+    );
+    if (!dict) return null;
+    return (
+        <Box border="1px" borderColor="gray.100" borderRadius="md">
+            <Table size="sm" shadow="sm">
+                <Tbody>
+                    {dictKeys.map((k, idx) => (
+                        <DictToTableRow dict={dict} k={k} idx={idx} />
+                    ))}
+                </Tbody>
+            </Table>
+        </Box>
+    );
+}
 

@@ -6,10 +6,14 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.0.13",
     "@chakra-ui/react": "^1.6.3",
     "@emotion/react": "11",
     "@emotion/styled": "11",
     "@react-three/fiber": "^6.2.3",
+    "@visx/group": "^1.7.0",
+    "@visx/shape": "^1.12.0",
+    "@visx/text": "^1.10.0",
     "chart.js": "^3.3.2",
     "copy-to-clipboard": "^3.3.1",
     "framer-motion": "4",
