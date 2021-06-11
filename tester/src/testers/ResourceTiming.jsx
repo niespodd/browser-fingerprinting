@@ -68,13 +68,17 @@ const TimelineVisualisation = ({ data }) => {
 const ResourceTiming = ({ fn, value }) => {
     fn(async () => {
         await new Promise((resolve) => setTimeout(resolve, 1000));
-        const performanceEntries = window.performance.getEntries();
-        const navigationTiming = performanceEntries.find((k) => k instanceof PerformanceNavigationTiming);
-        return {
-            navigationType: navigationTiming.type,
-            encodedBodySize: navigationTiming.encodedBodySize,
-            entriesCount: performanceEntries.length,
-            domainLookupTime: navigationTiming.domainLookupEnd - navigationTiming.domainLookupStart,
+        try {
+            const performanceEntries = window.performance.getEntries();
+            const navigationTiming = performanceEntries.find((k) => k instanceof PerformanceNavigationTiming);
+            return {
+                navigationType: navigationTiming.type,
+                encodedBodySize: navigationTiming.encodedBodySize,
+                entriesCount: performanceEntries.length,
+                domainLookupTime: navigationTiming.domainLookupEnd - navigationTiming.domainLookupStart,
+            }
+        } catch (err) {
+            return {};
         }
     });
 
@@ -87,9 +91,15 @@ const ResourceTiming = ({ fn, value }) => {
 
     return (
         <>
-            <Text my={4}>
-                You entered this page by <Code>{value.navigationType}</Code> action. Encoded body size of this page is <Code>{value.encodedBodySize}B</Code> (this can vary by encoding supported by your browser).
-            </Text>
+            {value.navigationType ? (
+                <Text my={4}>
+                    You entered this page by <Code>{value.navigationType}</Code> action. Encoded body size of this page is <Code>{value.encodedBodySize}B</Code> (this can vary by encoding supported by your browser).
+                </Text>
+            ) : (
+                <Text my={4}>
+                    Likely <Code>PerformanceNavigationTiming</Code> is not supported by your browser.
+                </Text>
+            )}
 
             {value.domainLookupTime < 1 && (
                 <Alert status="info" mb={4}>

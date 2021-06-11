@@ -1,6 +1,6 @@
 import React from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {Box, Heading, Text, Spinner, Alert, AlertIcon} from "@chakra-ui/react";
+import {Box, Heading, Text, Spinner, Alert, AlertIcon, Code, Stack} from "@chakra-ui/react";
 import {statusSet} from "../state/actions";
 
 import mixpanel from 'mixpanel-browser';
@@ -16,6 +16,7 @@ export default (cls, config) => () => {
     const usePersisted = useSelector((state) => state.persisted);
     const storedValue = useSelector((state) => state.status[config.key]);
     const [status, setStatus] = React.useState(true);
+    const [error, setError] = React.useState(undefined);
     const dispatch = useDispatch();
     const assocTestFn = (fn) => React.useEffect(async () => {
         setStatus(TesterStatus.LOADING);
@@ -28,6 +29,8 @@ export default (cls, config) => () => {
             } catch (e) {
                 setStatus(TesterStatus.ERROR);
                 mixpanel.track('failed:' + key);
+
+                setError(e.toString());
             }
         } else {
            setStatus(TesterStatus.LOADED);
@@ -44,8 +47,17 @@ export default (cls, config) => () => {
 
             {status === TesterStatus.ERROR && (
                 <Alert status="error" mt={3}>
-                    <AlertIcon />
-                    There was a problem running test.
+                    <Stack>
+                        <Box>
+                            <AlertIcon />
+                            There was a problem running test.
+                        </Box>
+                        <Box>
+                            <Code>
+                                {error}
+                            </Code>
+                        </Box>
+                    </Stack>
                 </Alert>
             )}
 

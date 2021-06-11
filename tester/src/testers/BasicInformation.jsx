@@ -54,27 +54,32 @@ const getConnectionInformation = async () => {
 
 const BasicInformation = ({ fn, value }) => {
     fn(async () => {
-        const devtools = devToolsOpened();
-        const stackLimit = await probeStackLimit();
-        const connection = await getConnectionInformation();
-        return {
+        let result = {
             navigator: {
                 deviceMemory: navigator.deviceMemory,
                 hardwareConcurrency: navigator.hardwareConcurrency,
             },
-            performance: {
-                "jsHeapSizeLimit": performance.memory.jsHeapSizeLimit,
-            },
-            stackLimit: stackLimit,
             window: {
                 innerHeight: window.innerHeight,
                 innerWidth: window.innerWidth,
                 outerHeight: window.outerHeight,
                 outerWidth: window.outerWidth,
             },
-            devtools,
-            connection,
         };
+        result.devtools = devToolsOpened();
+        result.stackLimit = await probeStackLimit();
+        result.connection = await getConnectionInformation();
+        try {
+            result.performance = {
+                jsHeapSizeLimit: performance.memory.jsHeapSizeLimit,
+            };
+        } catch (err) {}
+        try {
+            result.performance = {
+                jsHeapSizeLimit: performance.memory.jsHeapSizeLimit,
+            };
+        } catch (err) {}
+        return result;
     });
 
     if (!value) return null;
