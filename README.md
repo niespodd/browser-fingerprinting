@@ -11,8 +11,9 @@ and a few other custom built (incl. social media platforms). [Having troubles by
 
 ---
 
-Check out [the new tester application](https://niespodd.github.io/browser-fingerprinting/):
-![./tester_preview.png](./tester_preview.png)
+**Looking for a stellar web scraping service?** Check ScrapingBee service that runs in-cloud with no extra charges for traffic from premium and residential proxies, and has battle-tested anti-fingerprinting features.
+
+![https://www.scrapingbee.com?fpr=darius8](./scrapingbee.png)
 
 ---
 
@@ -119,6 +120,12 @@ In this case, most of the time the vendor will be only able to **cluster the bad
 ### *Gateways, captchas & co*
 
 If you think this is a way to go [google "captcha resolve api"](https://letmegooglethat.com/?q=captcha+resolve+api).
+
+## Tester
+
+Check out my tester application:
+![https://niespodd.github.io/browser-fingerprinting/](./tester_preview.png)
+
 
 ## Support 
 
