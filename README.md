@@ -87,7 +87,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
 <tr>
 <td>
     <a href="https://cutt.ly/8RkGETc">
-        <b>Apify.io</b><br>
+        <b>Apify.com</b><br>
         <img src="./assets/apify.png">
     </a>
 </td>
