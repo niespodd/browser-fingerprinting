@@ -75,6 +75,15 @@ Once you have decided on what type of evasion is going to be needed in your proj
     <b>Scraping as a service</b>
 </td>
 <td>
+    <a href="https://cutt.ly/mRBRdyh">
+        <b>ProxyCrawl</b><br>
+        <img src="./assets/proxycrawl.png">
+    </a>
+</td>
+<td>
+    You can use real browsers to scrape the required data even if your targeted website is built with any language. This scraping as a service can easily extract the data for you and provide you with the HTML file format. In this way, you can easily scrape your required page within a short time.
+</td>
+<td>
     <a href="https://cutt.ly/VRkHvnL">
         <b>ScrapingBee</b><br>
         <img src="./assets/scrapingbee.png">
