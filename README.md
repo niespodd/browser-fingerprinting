@@ -83,6 +83,8 @@ Once you have decided on what type of evasion is going to be needed in your proj
 <td>
     You can use real browsers to scrape the required data even if your targeted website is built with any language. This scraping as a service can easily extract the data for you and provide you with the HTML file format. In this way, you can easily scrape your required page within a short time and even schedule scraping. It has OCR (Optical character recognition) for fetching texts which makes it stand out.
 </td>
+</tr>
+<tr>
 <td>
     <a href="https://cutt.ly/VRkHvnL">
         <b>ScrapingBee</b><br>
