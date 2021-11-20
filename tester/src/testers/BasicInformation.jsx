@@ -52,6 +52,18 @@ const getConnectionInformation = async () => {
     }
 }
 
+const getAvgFPS = async () => {
+    let c = 0, r = true;
+    const onRaf = () => {
+        if (!r) return; else c++;
+        window.requestAnimationFrame(onRaf);
+    }
+    window.requestAnimationFrame(onRaf);
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+    r = false;
+    return Math.round(c / 20)*10;
+}
+
 const BasicInformation = ({ fn, value }) => {
     fn(async () => {
         let result = {
@@ -65,6 +77,10 @@ const BasicInformation = ({ fn, value }) => {
                 outerHeight: window.outerHeight,
                 outerWidth: window.outerWidth,
             },
+            document: {
+                hasFocus: document.hasFocus(),
+                visibilityState: document.visibilityState,
+            }
         };
         result.devtools = devToolsOpened();
         result.stackLimit = await probeStackLimit();
@@ -72,11 +88,7 @@ const BasicInformation = ({ fn, value }) => {
         try {
             result.performance = {
                 jsHeapSizeLimit: performance.memory.jsHeapSizeLimit,
-            };
-        } catch (err) {}
-        try {
-            result.performance = {
-                jsHeapSizeLimit: performance.memory.jsHeapSizeLimit,
+                roundedAvgFps: await getAvgFPS(),
             };
         } catch (err) {}
         return result;
@@ -101,6 +113,15 @@ const BasicInformation = ({ fn, value }) => {
                             Window dimensions:
                         </Text>
                         <DictToTable dict={value} limitKeys={["window"]} />
+                    </Box>
+                    <Box mb={4}>
+                        <Text fontSize="sm" mb={2}>
+                            Document:
+                        </Text>
+                        <Text mb={2}>
+                            Has focus? {value.document.hasFocus ? "✔️" : "❌"}
+                        </Text>
+                        <DictToTable dict={value.document} limitKeys={["visibilityState"]} />
                     </Box>
                     <Box>
                         <Text>

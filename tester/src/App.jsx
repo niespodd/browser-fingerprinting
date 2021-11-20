@@ -67,8 +67,8 @@ const App = () => {
                 <Container maxW="container.xl">
                     <Box w="100%" sx={{ columnCount: window.outerWidth > 500 ? 2 : 1, columnGap: "24px" }}>
                         {/*<EncryptedMediaExtensions />*/}
-                        <ResourceTiming />
                         <BasicInformation />
+                        <ResourceTiming />
                         <MediaDevices />
 
                         <DeviceSensors />

@@ -225,7 +225,6 @@ These websites may be useful to test fingerprinting techniques against a web scr
 | http://uniquemachine.org/ | - |
 | http://dnscookie.com/ | - |
 | https://whatleaks.com/ | - |
-| https://kitchensink.ssl.fun/vendor/shape/fp | - |
 
 
 # Non-technical notes
