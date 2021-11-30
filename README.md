@@ -92,7 +92,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
     </a>
 </td>
 <td>
-    Handy when your project is about one-off scraping. Their data understanding algorithm makes extracting data a breeze.
+    Apify has evolved into a complete scraping and automation SaaS platform, with ready-made tools, an integrated proxy, and custom solutions for scraping at any scale. Developers can also create scrapers on the platform and rent them to other users.
 </td>
 </tr>
 
