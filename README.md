@@ -1,3 +1,7 @@
+<a href="https://scrapedit.com/?ref=ghnie9">
+    <img src="./assets/scrapedit.png" width="560">
+</a>
+
 # Avoiding bot detection: How to scrape the web without getting blocked? 👨‍🔧
 
 Whether you're just starting to build a web scraper from scratch and wondering what you're doing wrong because your solution isn't working, or you've already been working with crawlers for a while and are stuck on a page that gives you an error saying you're a bot, you can't go any further, keep reading.
@@ -92,7 +96,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
     </a>
 </td>
 <td>
-    Handy when your project is about one-off scraping. Their data understanding algorithm makes extracting data a breeze.
+    Apify has evolved into a complete scraping and automation SaaS platform, with ready-made tools, an integrated proxy, and custom solutions for scraping at any scale. Developers can also create scrapers on the platform and rent them to other users.
 </td>
 </tr>
 
