@@ -216,6 +216,8 @@ These websites may be useful to test fingerprinting techniques against a web scr
 
 | Test page | Notes | 
 | - | - |
+| https://bot.incolumitas.com/ | Very helpful and useful collection of tests |
+| https://plaperdr.github.io/morellian-canvas/Prototype/webpage/picassauth.html | canvas fingerprinting on steroids |
 | https://pixelscan.net/ | Not 100% realiable as it often displays "inconsistent" to Chrome after a new update, but worth checking as the author adds new interesting detection features every now and then |
 | https://browserleaks.com/ | Doesn't need introduction 😉 |
 | https://f.vision/ | Good quality test page from some 🇷🇺 guys |
@@ -229,6 +231,7 @@ These websites may be useful to test fingerprinting techniques against a web scr
 | http://uniquemachine.org/ | - |
 | http://dnscookie.com/ | - |
 | https://whatleaks.com/ | - |
+| https://antcpt.com/eng/information/demo-form/recaptcha-3-test-score.html | Check your reCaptcha score |
 
 
 # Non-technical notes
