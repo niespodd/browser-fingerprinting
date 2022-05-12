@@ -47,28 +47,13 @@ Once you have decided on what type of evasion is going to be needed in your proj
 
 <tr>
 <td>
-    <a href="https://cutt.ly/GRkG2uZ">
-        <b>Global Peer to Business Proxy Network - infatica.io</b><br>
-        <img src="./assets/infatica.png">
-    </a>
-</td>
-<td>
-    An alternative to BrightData that is <b>three times cheaper</b>, but however do mind their terms of use.
-</td>
-</tr>
-
-<tr>
-<td>
-    <a href="https://oxylabs.io/">
-        <b>Oxylabs</b><br>
-        <img src="./assets/oxylabs.png">
-    </a>
+    <b>Oxylabs</b><br>
+    <img src="./assets/oxylabs.png">
 </td>
 <td>
     Competitor to BrightData with very similar pricing model. Rumor has it that they have a better TCP fingerprinting masking mechanism in place.
 </td>
 </tr>
-
 
 <tr>
 <td rowspan=2>
