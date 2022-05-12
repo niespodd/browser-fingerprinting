@@ -64,6 +64,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
     </a>
 </td>
 <td>
+    <u><strong>Highly recommended 👍</strong></u><br />
     One of the most advanced stealthy scraping as a service. At times it may be cheaper than building a dedicated scraping solution - they do not charge for the amount of traffic used.
 </td>
 </tr>
