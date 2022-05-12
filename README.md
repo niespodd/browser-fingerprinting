@@ -1,7 +1,3 @@
-<a href="https://scrapedit.com/?ref=ghnie9">
-    <img src="./assets/scrapedit.png" width="560">
-</a>
-
 # Avoiding bot detection: How to scrape the web without getting blocked? 👨‍🔧
 
 Whether you're just starting to build a web scraper from scratch and wondering what you're doing wrong because your solution isn't working, or you've already been working with crawlers for a while and are stuck on a page that gives you an error saying you're a bot, you can't go any further, keep reading.
