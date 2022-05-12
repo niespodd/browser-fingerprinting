@@ -35,13 +35,11 @@ Once you have decided on what type of evasion is going to be needed in your proj
 <tr>
 <td rowspan=3><b>Proxy</b></td>
 <td>
-    <a href="https://cutt.ly/VRkFS7T">
-        <b>BrightData (formerly Luminati Networks)</b><br>
-        <img src="./assets/brightdata.png">
-    </a>
+    <b>BrightData (formerly Luminati Networks)</b><br>
+    <img src="./assets/brightdata.png">
 </td>
 <td>
-    One of the most reliable, stable and recommended proxy provider. Best to begin there and if it turns out to be too pricey, move to cheaper alternatives.
+    One of the most popular, but probably as well the most expensive, proxy provider. The IP pool is mainly sourced from users of HolaVPN and an app monetization SDK. 
 </td>
 </tr>
 
@@ -51,7 +49,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
     <img src="./assets/oxylabs.png">
 </td>
 <td>
-    Competitor to BrightData with very similar pricing model. Rumor has it that they have a better TCP fingerprinting masking mechanism in place.
+    Competitor to BrightData with more no-code/low-code scraping products.
 </td>
 </tr>
 
