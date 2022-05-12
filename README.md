@@ -33,7 +33,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
 </thead>
 <tbody>
 <tr>
-<td rowspan=3><b>Proxy</b></td>
+<td rowspan=2><b>Proxy</b></td>
 <td>
     <b>BrightData (formerly Luminati Networks)</b><br>
     <img src="./assets/brightdata.png">
@@ -67,6 +67,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
     One of the most advanced stealthy scraping as a service. At times it may be cheaper than building a dedicated scraping solution - they do not charge for the amount of traffic used.
 </td>
 </tr>
+    
 <tr>
 <td>
     <a href="https://cutt.ly/8RkGETc">
