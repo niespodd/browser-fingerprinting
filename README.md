@@ -21,7 +21,7 @@ Below you can find list of curated services that I used to get around different 
 Once you have decided on what type of evasion is going to be needed in your project, you can use the list below to pick the best provider for your project:
 
 
-### Recommended services
+### Helpful services
 
 <table>
 <thead>
