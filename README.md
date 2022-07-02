@@ -115,6 +115,7 @@ This is a non-exhaustive list of companies that provide the most advanced anti-b
 * [Kaskada](https://www.kasada.io/)
 * [Alibaba Cloud Anti-Bot Service](https://www.alibabacloud.com/products/antibot)
 * [Travatar](https://travatar.ai/)
+* [HUMAN](https://www.humansecurity.com/)
 
 ### How do you know who is getting you blocked?
 
