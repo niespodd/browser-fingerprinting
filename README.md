@@ -116,6 +116,12 @@ This is a non-exhaustive list of companies that provide the most advanced anti-b
 * [Alibaba Cloud Anti-Bot Service](https://www.alibabacloud.com/products/antibot)
 * [Travatar](https://travatar.ai/)
 * [HUMAN](https://www.humansecurity.com/)
+* [Ocule](https://ocule.io/)
+* [Sift](https://siftscience.com)
+* [Forter](https://www.forter.com/)
+* [Reblaze](https://www.reblaze.com/)
+* [Arkose Labs](https://www.arkoselabs.com/)
+* [LexisNexis® ThreatMetrix®](https://risk.lexisnexis.com/products/threatmetrix)
 
 ### How do you know who is getting you blocked?
 
