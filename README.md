@@ -39,8 +39,8 @@ Once you have decided on what type of evasion is going to be needed in your proj
 <tr>
 <td rowspan=3><b>Proxy</b></td>
 <td>
-    <a href="https://cutt.ly/VRkFS7T">
-        <b>BrightData (formerly Luminati Networks)</b><br>
+    <a href="https://brightdata.com/proxy-types/residential-proxies">
+        <b>Bright Data</b><br>
         <img src="./assets/brightdata.png">
     </a>
 </td>
