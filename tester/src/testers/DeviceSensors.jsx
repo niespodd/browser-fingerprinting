@@ -77,7 +77,6 @@ const DeviceSensors = ({ fn, value }) => {
             aSensor.addEventListener('reading', function(e) {
                 setAcceleration([aSensor.x, aSensor.y, aSensor.z]);
             });
-            aSensor.onerror = alert;
             oSensor.start();
             aSensor.start();
             return () => {
