@@ -6,7 +6,8 @@ import {DictToTable} from "./utils";
 const DocumentStatus = ({ fn, value }) => {
     fn(() => ({
         document: {
-            hasFocus: document.hasFocus(),
+            hasFocus: document.hasFocus() ? "yes" : "no",
+            hidden: document.hidden ? "yes" : "no",
             compatMode: document.compatMode,
             documentURI: document.documentURI,
             designMode: document.designMode,

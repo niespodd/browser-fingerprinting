@@ -16,6 +16,7 @@ import base64 from "./utils/base64";
 import MediaDevices from "./testers/MediaDevices";
 import EncryptedMediaExtensions from "./testers/EncryptedMediaExtensions";
 import ResourceTiming from "./testers/ResourceTiming";
+import PerformanceMemory from "./testers/PerformanceMemory";
 
 const AppPersisted = () => {
     const dispatch = useDispatch();
@@ -68,8 +69,10 @@ const App = () => {
                     <Box w="100%" sx={{ columnCount: window.outerWidth > 500 ? 2 : 1, columnGap: "24px" }}>
                         {/*<EncryptedMediaExtensions />*/}
                         <BasicInformation />
+                        <PerformanceMemory />
                         <ResourceTiming />
                         <MediaDevices />
+
 
                         <DeviceSensors />
                         <ChromeExtensions />
