@@ -142,7 +142,7 @@ Join [extra.community](https://extra.community/). There runs an automated tester
 | [MultiLogin](https://multilogin.com)               | ✔️ | ✔️ | 🤮 | ✔️ | 🇪🇪 + 🇷🇺  |
 | [Indigo Browser](https://indigobrowser.com)        | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
 | [GhostBrowser](https://ghostbrowser.com)           | ❌ | ❌ | ❌ | 👍 | ❓ |
-| [Kameleo](https://kameleo.io)                      | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
+| [Kameleo](https://kameleo.io)                      | ✔️ | ✔️ | 🤮 | ✔️ | 🇭🇺 |
 | [AntBrowser](https://antbrowser.pro)               | ❌ | ❌ | ❌ | ❌ | 🇷🇺  |
 | [CheBrowser](https://beta.chebrowser.site)         | ❌ | ❌ | 🤮/✔️ | 👍 | 🇷🇺  |
 
