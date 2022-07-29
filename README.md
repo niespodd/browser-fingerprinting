@@ -137,11 +137,11 @@ Join [extra.community](https://extra.community/). There runs an automated tester
 | Stealth Browser | Puppeteer | Selenium | Evasions | SDK/Tooling | Origin |
 | - | - | - | - | - | - |
 | [GoLogin](https://gologinapp.com)                  | ✔️ | ✔️ | 🤮 | 👍 | 🇺🇸 + 🇷🇺 |
-| [Incogniton](https://incogniton.com)               | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
-| [ClonBrowser](https://www.clonbrowser.com/)        | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
+| [Incogniton](https://incogniton.com)               | ✔️ | ✔️ | 🤮 | ✔️ | 🇳🇱 ❓ |
+| [ClonBrowser](https://www.clonbrowser.com/)        | ✔️ | ✔️ | 🤮 | ✔️ | 🇸🇬 |
 | [MultiLogin](https://multilogin.com)               | ✔️ | ✔️ | 🤮 | ✔️ | 🇪🇪 + 🇷🇺  |
-| [Indigo Browser](https://indigobrowser.com)        | ✔️ | ✔️ | 🤮 | ✔️ | ❓ |
-| [GhostBrowser](https://ghostbrowser.com)           | ❌ | ❌ | ❌ | 👍 | ❓ |
+| [Indigo Browser](https://indigobrowser.com)        | ✔️ | ✔️ | 🤮 | ✔️ | 🇪🇪 |
+| [GhostBrowser](https://ghostbrowser.com)           | ❌ | ❌ | ❌ | 👍 | 🇺🇸 |
 | [Kameleo](https://kameleo.io)                      | ✔️ | ✔️ | 🤮 | ✔️ | 🇭🇺 |
 | [AntBrowser](https://antbrowser.pro)               | ❌ | ❌ | ❌ | ❌ | 🇷🇺  |
 | [CheBrowser](https://beta.chebrowser.site)         | ❌ | ❌ | 🤮/✔️ | 👍 | 🇷🇺  |
