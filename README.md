@@ -33,10 +33,18 @@ Once you have decided on what type of evasion is going to be needed in your proj
 </thead>
 <tbody>
 <tr>
-<td rowspan=2><b>Proxy</b></td>
+<td rowspan=3><b>Proxy</b></td>
+<td>
+    <a href="https://thesocialproxy.com/?ref=niespodd8@pm.me"><b>The Social Proxy</b><br><img src="./assets/tsp.png" /></a>
+</td>
+<td>
+    <strong>Highly recommended 👍</strong><br /><i>✔️ Pros</i>: The IP pools is consistently good, contrary to existing "big sharks" of the proxy industry that charge per GB, here you get <u>unlimited traffic</u> within a rotating endpoint. Transparent business model.<br /><i>❌ Cons:</i> The geo coverage is limited to the countries listed on the website. IP isn't rotated instantly, but you rather got to wait 10-15 seconds. 
+</td>
+</tr>
+<tr>
 <td>
     <b>BrightData (formerly Luminati Networks)</b><br>
-    <img src="./assets/brightdata.png">
+    <a href="#"><img src="./assets/brightdata.png"></a>
 </td>
 <td>
     One of the most popular, but probably as well the most expensive, proxy provider. The IP pool is mainly sourced from users of HolaVPN and an app monetization SDK. 
@@ -46,7 +54,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
 <tr>
 <td>
     <b>Oxylabs</b><br>
-    <img src="./assets/oxylabs.png">
+    <a href="#"><img src="./assets/oxylabs.png"></a>
 </td>
 <td>
     Competitor to BrightData with more no-code/low-code scraping products.
