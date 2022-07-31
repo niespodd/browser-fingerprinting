@@ -35,7 +35,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
 <tr>
 <td rowspan=3><b>Proxy</b></td>
 <td>
-    <a href="https://thesocialproxy.com/?ref=niespodd8@pm.me"><b>The Social Proxy</b><br><img src="./assets/tsp.png" /></a>
+    <a href="https://thesocialproxy.com/?ref=niespodd8@pm.me"><b>The Social Proxy</b><br><img src="./assets/tsp.png" height="80" /></a>
 </td>
 <td>
     <strong>Highly recommended 👍</strong><br /><i>✔️ Pros</i>: The IP pools is consistently good, contrary to existing "big sharks" of the proxy industry that charge per GB, here you get <u>unlimited traffic</u> within a rotating endpoint. Transparent business model.<br /><i>❌ Cons:</i> The geo coverage is limited to the countries listed on the website. IP isn't rotated instantly, but you rather got to wait 10-15 seconds. 
