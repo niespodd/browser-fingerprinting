@@ -229,6 +229,10 @@ These websites may be useful to test fingerprinting techniques against a web scr
 | http://dnscookie.com/ | - |
 | https://whatleaks.com/ | - |
 | https://antcpt.com/eng/information/demo-form/recaptcha-3-test-score.html | Check your reCaptcha score |
+| https://antoinevastel.com/bots/ | - |
+| https://antoinevastel.com/bots/datadome | - |
+| https://iphey.com/ | - |
+| https://bot.sannysoft.com/ | - |
 
 
 # Non-technical notes
