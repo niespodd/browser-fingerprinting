@@ -235,6 +235,7 @@ These websites may be useful to test fingerprinting techniques against a web scr
 | https://bot.sannysoft.com/ | - |
 | https://webbrowsertools.com/canvas-fingerprint/ | - |
 | https://webbrowsertools.com/webgl-fingerprint/ | - |
+| https://fingerprint.com/products/bot-detection/ | - |
 | https://abrahamjuliot.github.io/creepjs/ | Really creepy, the strongest of all |
 
 
