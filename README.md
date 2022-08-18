@@ -233,6 +233,9 @@ These websites may be useful to test fingerprinting techniques against a web scr
 | https://antoinevastel.com/bots/datadome | - |
 | https://iphey.com/ | - |
 | https://bot.sannysoft.com/ | - |
+| https://webbrowsertools.com/canvas-fingerprint/ | - |
+| https://webbrowsertools.com/webgl-fingerprint/ | - |
+| https://abrahamjuliot.github.io/creepjs/ | Really creepy, the strongest of all |
 
 
 # Non-technical notes
