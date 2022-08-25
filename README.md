@@ -236,6 +236,14 @@ These websites may be useful to test fingerprinting techniques against a web scr
 | http://dnscookie.com/ | - |
 | https://whatleaks.com/ | - |
 | https://antcpt.com/eng/information/demo-form/recaptcha-3-test-score.html | Check your reCaptcha score |
+| https://antoinevastel.com/bots/ | - |
+| https://antoinevastel.com/bots/datadome | - |
+| https://iphey.com/ | - |
+| https://bot.sannysoft.com/ | - |
+| https://webbrowsertools.com/canvas-fingerprint/ | - |
+| https://webbrowsertools.com/webgl-fingerprint/ | - |
+| https://fingerprint.com/products/bot-detection/ | - |
+| https://abrahamjuliot.github.io/creepjs/ | Really creepy, the strongest of all |
 
 
 # Non-technical notes
