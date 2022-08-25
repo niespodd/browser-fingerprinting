@@ -1,3 +1,10 @@
+*This repository's development would not have been possible without the support of many partners and sponsors. One of these partners is **ScrapingBee, which is a cloud web scraping service with some neat built-in anti-bot detection features.***
+
+<a href="https://cutt.ly/VRkHvnL">
+    <b>ScrapingBee - Sign up with code "NIESPODD" to get -10% on the first invoice</b><br>
+    <img src="./assets/scrapingbee.png">
+</a>
+
 # Avoiding bot detection: How to scrape the web without getting blocked? 👨‍🔧
 
 Whether you're just starting to build a web scraper from scratch and wondering what you're doing wrong because your solution isn't working, or you've already been working with crawlers for a while and are stuck on a page that gives you an error saying you're a bot, you can't go any further, keep reading.
