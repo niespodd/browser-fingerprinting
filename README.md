@@ -1,7 +1,7 @@
 *This repository's development would not have been possible without the support of many partners and sponsors. One of these partners is **ScrapingBee, which is a cloud web scraping service with some neat built-in anti-bot detection features.***
 
 <a href="https://cutt.ly/VRkHvnL">
-    <b>ScrapingBee - Sign up with code "NIESPODD" to get -10% on the first invoice</b><br>
+    <b>ScrapingBee - Sign up for a free trial and get -10% on the first invoice with code "NIESPODD"</b><br>
     <img src="./assets/scrapingbee.png">
 </a>
 
