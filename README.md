@@ -1,4 +1,4 @@
-<a href="https://niespodd.substack.com/" target="_blank"><img src="https://user-images.githubusercontent.com/746448/199036672-a4a30b73-fc15-44a0-a2a6-e67f19af14ea.png" style="max-width: 230px" /></a>
+<a href="https://niespodd.github.io/subscribe.html" target="_blank"><img src="https://niespodd.github.io/substack_button.png" style="max-width: 230px" /></a>
 
 *This repository's development would not have been possible without the support of many partners and sponsors. One of these partners is **ScrapingBee, which is a cloud web scraping service with some neat built-in anti-bot detection features.***
 
