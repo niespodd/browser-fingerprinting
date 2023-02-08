@@ -6,6 +6,11 @@
     <b>ScrapingBee - Sign up for a free trial and get -10% on the first invoice with code "NIESPODD"</b><br>
     <img src="./assets/scrapingbee.png">
 </a>
+<br />
+<a href="https://cutt.ly/73fEIXP">
+    <img src="https://proxy-seller.com/upload/uf/8ae/8aeade7cf73ff3e42dd17f4617ce4018.svg">
+    <b>Proxy-Seller - Good source of high quality IP addresses for testing your web scraping solutions</b><br>
+</a>
 
 # Avoiding bot detection: How to scrape the web without getting blocked? 👨‍🔧
 
