@@ -8,7 +8,7 @@
 </a>
 <br />
 <a href="https://cutt.ly/73fEIXP">
-    <img src="https://proxy-seller.com/upload/uf/8ae/8aeade7cf73ff3e42dd17f4617ce4018.svg">
+    <img src="https://proxy-seller.com/upload/uf/8ae/8aeade7cf73ff3e42dd17f4617ce4018.svg"><br>
     <b>Proxy-Seller - Good source of high quality IP addresses for testing your web scraping solutions</b><br>
 </a>
 
