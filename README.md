@@ -47,7 +47,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
 </thead>
 <tbody>
 <tr>
-<td rowspan=3><b>Proxy</b></td>
+<td rowspan=4><b>Proxy</b></td>
 <td>
     <a href="https://thesocialproxy.com/?ref=niespodd8@pm.me"><b>The Social Proxy</b><br><img src="./assets/tsp.png" height="80" /></a>
 </td>
@@ -72,6 +72,16 @@ Once you have decided on what type of evasion is going to be needed in your proj
 </td>
 <td>
     Competitor to BrightData with more no-code/low-code scraping products.
+</td>
+</tr>
+
+<tr>
+<td>
+    <b>ASocks</b><br>
+    <a href="#"><img src="./assets/asocks.ico"></a>
+</td>
+<td>
+    Another competitor to BrightData with different types of proxies.
 </td>
 </tr>
 
