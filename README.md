@@ -78,7 +78,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
 <tr>
 <td>
     <b>ASocks</b><br>
-    <a href="#"><img src="./assets/asocks.ico"></a>
+    <a><img src="https://app.asocks.com/assets/logo.46eb7234.svg"</a>
 </td>
 <td>
     Another competitor to BrightData with different types of proxies.
