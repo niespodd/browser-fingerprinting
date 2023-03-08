@@ -1,4 +1,3 @@
-<a href="https://niespodd.github.io/subscribe.html" target="_blank"><img src="https://niespodd.github.io/substack_button.png" style="max-width: 230px" /></a>
 
 *This repository's development would not have been possible without the support of many partners and sponsors. One of these partners is **ScrapingBee, which is a cloud web scraping service with some neat built-in anti-bot detection features.***
 
@@ -7,9 +6,9 @@
     <img src="./assets/scrapingbee.png">
 </a>
 <br />
-<a href="https://cutt.ly/73fEIXP">
-    <img src="https://proxy-seller.com/upload/uf/8ae/8aeade7cf73ff3e42dd17f4617ce4018.svg"><br>
-    <b>Proxy-Seller - Good source of high quality IP addresses for testing your web scraping solutions</b><br>
+<a href="https://undetect.io/solutions/?ref=niespodd" target="_blank">
+    <img src="https://undetect.io/assets/logo/logo.svg" height="42" style="max-height: 42px" /><br />
+    <b>Unblock critical data with enterprise-ready browser automation solutions.</b>
 </a>
 
 # Avoiding bot detection: How to scrape the web without getting blocked? 👨‍🔧
