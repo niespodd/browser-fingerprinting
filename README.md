@@ -6,10 +6,6 @@
     <img src="./assets/scrapingbee.png">
 </a>
 <br />
-<a href="https://undetect.io/solutions/?ref=niespodd" target="_blank">
-    <img src="https://undetect.io/assets/logo/logo.svg" height="42" style="max-height: 42px" /><br />
-    <b>Unblock critical data with enterprise-ready browser automation solutions.</b>
-</a>
 
 # Avoiding bot detection: How to scrape the web without getting blocked? 👨‍🔧
 
