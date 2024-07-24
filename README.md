@@ -23,7 +23,7 @@ Below you can find list of curated services that I used to get around different 
 | **Geographically restricted websites** | Region-specific pool of IP addresses | This is useful when the website uses a firewall similar to [the one from Cloudflare to block entire geography](https://community.cloudflare.com/t/blocking-entire-countries/24172/8) from accessing it.  |
 | **Long-lived sessions after sign-in** | Repeatable pool of IP addresses and stable set of browser fingerprints | The most common scenario here is social media automation e.g. you build a tool to automate social media accounts to manage ads more efficiently. |
 | **Javascript-based detection** | Use of popular evasion libraries, similar to [puppeteer-extra-plugin-stealth](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-stealth) | There is a number of websites utilizing [FingerprintJS](https://fingerprintjs.com/) that can be easily bypassed when you employ open-source plugins such as the aforementioned puppeteer stealth plugin to work with your existing software. | 
-| **Detection with browser fingerprinting techniques** | Natural looking browser fingerprints. That is, having covered the whole surface that is being validated by the installed Javascript solution on the target website. | These are one of the most advanced cases. Mainstream examples are credit card processors such as Adyen or Stripe. A very sophisticated browser fingerprint is being created to detect credit fraud, or prompt additional authorization from the user. |
+| **Detection with browser fingerprinting techniques** | Natural looking browser fingerprints. That is, having covered the whole surface that is being validated by the installed Javascript solution on the target website. [Selenium-Profiles](https://github.com/kaliiiiiiiiii/Selenium-Profiles) (Python) is one approach for emulating browser fingerprints.  | These are one of the most advanced cases. Mainstream examples are credit card processors such as Adyen or Stripe. A very sophisticated browser fingerprint is being created to detect credit fraud, or prompt additional authorization from the user. |
 | **Unique set of detection techniques** | Specialized bot software that targets the unique detection surface of the target website. | Good examples are [sneakers marketplace websites and e-commerce shops, reportedly being under heavy attack from custom made bot software](https://www.businessinsider.com/sneaker-bots-how-to-buy-make-and-run-the-tech-2021-1). |
 | **Simple custom-made detection techniques** | Before diving into any of the above, if you are targeting a smaller website, it is very likely that all you need is a [Scrapy script with tweaks](https://www.zyte.com/blog/how-to-scrape-the-web-without-getting-blocked/), a cheap data-center proxy, and you are good to go. | - | 
 
@@ -42,7 +42,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
 </thead>
 <tbody>
 <tr>
-<td rowspan=3><b>Proxy</b></td>
+<td rowspan=4><b>Proxy</b></td>
 <td>
     <a href="https://thesocialproxy.com/?ref=niespodd8@pm.me"><b>The Social Proxy</b><br><img src="./assets/tsp.png" height="80" /></a>
 </td>
@@ -67,6 +67,16 @@ Once you have decided on what type of evasion is going to be needed in your proj
 </td>
 <td>
     Competitor to BrightData with more no-code/low-code scraping products.
+</td>
+</tr>
+
+<tr>
+<td>
+    <a href="https://www.asocks.com/c/VBzkbI">ASocks</a><br>
+    <a href="https://www.asocks.com/c/VBzkbI"><img src="https://app.asocks.com/assets/logo.46eb7234.svg"</a>
+</td>
+<td>
+    Another competitor to BrightData with different types of proxies.
 </td>
 </tr>
 
