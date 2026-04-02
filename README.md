@@ -42,7 +42,7 @@ Once you have decided on what type of evasion is going to be needed in your proj
 </thead>
 <tbody>
 <tr>
-<td rowspan=3><b>Proxy</b></td>
+<td rowspan=4><b>Proxy</b></td>
 <td>
     <a href="https://thesocialproxy.com/?ref=niespodd8@pm.me"><b>The Social Proxy</b><br><img src="./assets/tsp.png" height="80" /></a>
 </td>
@@ -67,6 +67,15 @@ Once you have decided on what type of evasion is going to be needed in your proj
 </td>
 <td>
     Competitor to BrightData with more no-code/low-code scraping products.
+</td>
+</tr>
+
+<tr>
+<td>
+    <b><a href="https://iploop.io">IPLoop</a></b>
+</td>
+<td>
+    Residential proxy network with 2M+ IPs across 195 countries. Built-in TLS fingerprinting and anti-detection at the SDK level (Python, Node.js, Java). City-level geo-targeting, sticky sessions, and HTTP/SOCKS5 support.
 </td>
 </tr>
 
