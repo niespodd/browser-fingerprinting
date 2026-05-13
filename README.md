@@ -275,6 +275,14 @@ Join [extra.community](https://extra.community/). There runs an automated tester
 <td>👍</td>
 <td>🇷🇺</td>
 </tr>
+<tr>
+<td><a href="https://github.com/feder-cr/invisible_playwright">invisible-playwright</a></td>
+<td>❌</td>
+<td>❌</td>
+<td>✔️</td>
+<td>Playwright</td>
+<td>🇮🇹</td>
+</tr>
 </tbody>
 </table>
 
