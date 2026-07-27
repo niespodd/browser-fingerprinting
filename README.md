@@ -355,6 +355,11 @@ Where `puppeteer-extra-plugin-stealth` falls short, there are attempts to go dee
 <td>Custom Firefox build with fingerprinting tweaks at the C++ level — refreshing change from JS-layer monkey patching.</td>
 </tr>
 <tr>
+<td><a href="https://github.com/feder-cr/invisible_playwright">invisible-playwright</a></td>
+<td><img src="https://img.shields.io/github/last-commit/feder-cr/invisible_playwright?style=flat-square&label=" alt="last commit"></td>
+<td>Patched Firefox driven through the standard Playwright API. Fingerprint is set in the C++ source and derived from a seed, so one seed reproduces one machine across runs.</td>
+</tr>
+<tr>
 <td><a href="https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra">playwright-extra</a></td>
 <td><img src="https://img.shields.io/github/last-commit/berstend/puppeteer-extra?style=flat-square&label=" alt="last commit"></td>
 <td>Same plugin pipeline as puppeteer-extra, but for Playwright.</td>
