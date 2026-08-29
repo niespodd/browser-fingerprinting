@@ -187,6 +187,8 @@ This is a non-exhaustive list of companies that provide the most advanced anti-b
 
 Join [extra.community](https://extra.community/). There runs an automated tester **Botty McBotface** that uses several complicated techniques to determine what exact protection a tested website uses (credits to [berstend](https://github.com/berstend) and others from #insiders).
 
+Or read it off the response yourself: [scraping-reachability-2026](https://github.com/mtedj/scraping-reachability-2026) collects the block-page signatures of AWS WAF, DataDome (`t:bv` hard block vs `rt:i` device check vs `t:fe` captcha), Akamai (`Access Denied` vs `Bot or Not?`), Cloudflare managed challenges and a few others, with a single-file checker that fetches one URL with a plain client and with each TLS profile and names what came back. It also records what 24 public sites actually answered in August 2026 — pool, profile version, status, body size and pace tests — including the cases where the profile that passes one DataDome site is refused by another.
+
 ### Available stealth browsers with automation features
 
 **Important** You use this software at your own risk. Some of them contain malwares just fyi. **Use with caution.**
