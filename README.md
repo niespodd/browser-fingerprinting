@@ -416,6 +416,7 @@ These websites may be useful to test fingerprinting techniques against a web scr
 <tr><td><a href="https://fingerprint.com/products/bot-detection/">https://fingerprint.com/products/bot-detection/</a></td><td>-</td></tr>
 <tr><td><a href="https://abrahamjuliot.github.io/creepjs/">https://abrahamjuliot.github.io/creepjs/</a></td><td>Really creepy, the strongest of all</td></tr>
 <tr><td><a href="https://fingerprint-scan.com/browser_extensions">https://fingerprint-scan.com/browser_extensions</a></td><td>Probes installed browser extensions against a database of known web-accessible extension resources</td></tr>
+<tr><td><a href="https://sessioncontext.org/">https://sessioncontext.org/</a></td><td>Names each signal in plain English next to its raw value, and shows what a permission prompt adds over what was already inferred without it — width-measured fonts against the real installed list, for example. Open source (MIT)</td></tr>
 </tbody>
 </table>
 
