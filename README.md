@@ -360,6 +360,11 @@ Where `puppeteer-extra-plugin-stealth` falls short, there are attempts to go dee
 <td>Patched Firefox driven through the standard Playwright API. Fingerprint is set in the C++ source and derived from a seed, so one seed reproduces one machine across runs.</td>
 </tr>
 <tr>
+<td><a href="https://github.com/pppi21/anti-fingerprint-browser">anti-fingerprint-browser</a></td>
+<td><img src="https://img.shields.io/github/last-commit/pppi21/anti-fingerprint-browser?style=flat-square&label=" alt="last commit"></td>
+<td>Patched Chromium (on ungoogled-chromium, Windows) that spoofs GPU, canvas, audio, fonts, screen and hardware in the C++ source rather than through injected JS. Identity is random per launch or reproduced from an integer seed. Also adds CDP methods for automation, such as batched human-paced mouse paths and keystrokes, and access to closed shadow roots.</td>
+</tr>
+<tr>
 <td><a href="https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra">playwright-extra</a></td>
 <td><img src="https://img.shields.io/github/last-commit/berstend/puppeteer-extra?style=flat-square&label=" alt="last commit"></td>
 <td>Same plugin pipeline as puppeteer-extra, but for Playwright.</td>
