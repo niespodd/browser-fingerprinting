@@ -275,6 +275,14 @@ Join [extra.community](https://extra.community/). There runs an automated tester
 <td>👍</td>
 <td>🇷🇺</td>
 </tr>
+<tr>
+<td><a href="https://goundetected.io">GoUndetected</a></td>
+<td>✔️</td>
+<td>❓</td>
+<td>❓</td>
+<td>✔️</td>
+<td>🇺🇸</td>
+</tr>
 </tbody>
 </table>
 
